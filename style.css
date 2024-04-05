@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(135, 228, 135);
+}
+
+.page2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(128, 181, 128);
+}
+.page2 h1{
+    text-transform: uppercase;
+    font-size: 30vw;
+    position: absolute;
+    
+    top : 0%;
+
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(65, 80, 196);
+}
